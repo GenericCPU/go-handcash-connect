@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/tonicpow/go-handcash-connect"
+	"github.com/genericcpu/go-handcash-connect"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/tonicpow/go-handcash-connect
+module github.com/genericcpu/go-handcash-connect
 
 go 1.17
 

@@ -1,14 +1,14 @@
 # go-handcash-connect
 > The unofficial golang implementation for the [HandCash Connect SDK](https://handcash.github.io/handcash-connect-sdk-js-beta-docs/#/)
 
-[![Release](https://img.shields.io/github/release-pre/tonicpow/go-handcash-connect.svg?logo=github&style=flat&v=3)](https://github.com/tonicpow/go-handcash-connect/releases)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/tonicpow/go-handcash-connect/run-tests.yml?branch=master&logo=github&v=3)](https://github.com/tonicpow/go-handcash-connect/actions)
-[![Report](https://goreportcard.com/badge/github.com/tonicpow/go-handcash-connect?style=flat&v=3)](https://goreportcard.com/report/github.com/tonicpow/go-handcash-connect)
+[![Release](https://img.shields.io/github/release-pre/tonicpow/go-handcash-connect.svg?logo=github&style=flat&v=3)](https://github.com/genericcpu/go-handcash-connect/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/tonicpow/go-handcash-connect/run-tests.yml?branch=master&logo=github&v=3)](https://github.com/genericcpu/go-handcash-connect/actions)
+[![Report](https://goreportcard.com/badge/github.com/genericcpu/go-handcash-connect?style=flat&v=3)](https://goreportcard.com/report/github.com/genericcpu/go-handcash-connect)
 [![codecov](https://codecov.io/gh/tonicpow/go-handcash-connect/branch/master/graph/badge.svg?v=3)](https://codecov.io/gh/tonicpow/go-handcash-connect)
 [![Go](https://img.shields.io/github/go-mod/go-version/tonicpow/go-handcash-connect?v=3)](https://golang.org/)
 <br>
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://api.mergify.com/v1/badges/tonicpow/go-handcash-connect&style=flat&v=3)](https://mergify.io)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tonicpow/go-handcash-connect)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/genericcpu/go-handcash-connect)
 
 <br/>
 
@@ -29,15 +29,15 @@
 
 **go-handcash-connect** requires a [supported release of Go](https://golang.org/doc/devel/release.html#policy).
 ```shell script
-go get -u github.com/tonicpow/go-handcash-connect
+go get -u github.com/genericcpu/go-handcash-connect
 ```
 
 <br/>
 
 ## Documentation
-View the generated [documentation](https://pkg.go.dev/github.com/tonicpow/go-handcash-connect)
+View the generated [documentation](https://pkg.go.dev/github.com/genericcpu/go-handcash-connect)
 
-[![GoDoc](https://godoc.org/github.com/tonicpow/go-handcash-connect?status.svg&style=flat&v=3)](https://pkg.go.dev/github.com/tonicpow/go-handcash-connect)
+[![GoDoc](https://godoc.org/github.com/genericcpu/go-handcash-connect?status.svg&style=flat&v=3)](https://pkg.go.dev/github.com/genericcpu/go-handcash-connect)
 
 ### Features
 - Current coverage for the [HandCash Connect SDK](https://handcash.github.io/handcash-connect-sdk-js-beta-docs/#/)
@@ -108,7 +108,7 @@ vet                  Run the Go vet application
 <br/>
 
 ## Examples & Tests
-All unit tests and [examples](examples) run via [GitHub Actions](https://github.com/tonicpow/go-handcash-connect/actions) and
+All unit tests and [examples](examples) run via [GitHub Actions](https://github.com/genericcpu/go-handcash-connect/actions) and
 uses [Go version 1.17.x](https://golang.org/doc/go1.17). View the [configuration file](.github/workflows/run-tests.yml).
 
 Run all tests (including integration tests)
@@ -151,7 +151,7 @@ View the [examples](examples)
 ## Contributing
 View the [contributing guidelines](.github/CONTRIBUTING.md) and please follow the [code of conduct](.github/CODE_OF_CONDUCT.md).
 
-[![Stars](https://img.shields.io/github/stars/tonicpow/go-handcash-connect?label=Please%20like%20us&style=social)](https://github.com/tonicpow/go-handcash-connect/stargazers)
+[![Stars](https://img.shields.io/github/stars/tonicpow/go-handcash-connect?label=Please%20like%20us&style=social)](https://github.com/genericcpu/go-handcash-connect/stargazers)
 
 ### Credits
 
