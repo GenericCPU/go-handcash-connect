@@ -1,10 +1,6 @@
 package handcash
 
 import (
-	"context"
-	"encoding/json"
-	"fmt"
-	"net/http"
 )
 
 func (h *HandCashConnect) GetRedirectionURL() string {
