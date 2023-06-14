@@ -9,7 +9,7 @@ const (
 	defaultUserAgent string = "go-handcash-connect: " + version
 
 	// apiVersion of the Handcash Connect SDK
-	apiVersion = "v1"
+	apiVersion = "v3"
 
 	// emptyBody is the default body if nobody is set
 	emptyBody = "{}"
@@ -75,6 +75,9 @@ const (
 
 	// endpointGetPayRequest will create a new pay request
 	endpointGetPayRequest = endpointWallet + "/pay"
+
+	// endpointGetPayRequest will create a new pay request
+	endpointGetItems = endpointWallet + "/items/inventory"
 
 	// endpointGetPaymentRequest will create a new payment request
 	endpointGetPaymentRequest = endpointWallet + "/payment"

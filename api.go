@@ -10,6 +10,16 @@ import (
 	"github.com/libsv/go-bk/bec"
 )
 
+type HandCashConnect struct {
+    AppID     string
+    AppSecret string
+}
+
+func (h *HandCashConnect) Init(appID string, appSecret string) {
+    h.AppID = appID
+    h.AppSecret = appSecret
+}
+
 // getRequestSignature will return the request signature
 //
 // Specs: https://github.com/HandCash/handcash-connect-sdk-js/blob/00300de6d225fa37fe2f4a5efe315dd08dd4beb9/src/api/http_request_factory.js#L16
